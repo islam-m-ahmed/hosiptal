@@ -1,0 +1,116 @@
+:root {
+	--main-color:#374eff;
+	--main-color-hover:#40b6a6;
+	--secondary-color:#303030;
+	--secondary-color-hover:#1dfffb;
+}
+
+/** top nav **/
+
+#top-nav {
+	z-index:10000;
+	background-color:var(--main-color);
+	
+}
+#top-nav a{
+	color:var(--secondary-color);
+}
+#top-nav a:hover{
+	color:var(--secondary-color-hover);
+}
+
+.currency{
+	color:#43a047;
+}
+
+#top-nav .dropdown-menu{
+	z-index:1000;	
+}
+
+
+/** header **/
+header .navbar{
+}
+header img{
+	width:10%;
+}
+header .navbar a{
+	background-color: none !important;
+}
+
+.search-btn{
+	background-color:var(--secondary-color);
+	color:var(--main-color);
+}
+header nav{
+	background-color:var(--main-color);
+}
+header a{
+	color:var(--secondary-color);
+	font-size:1.4rem;
+}
+header a:hover{
+	background-color:var(--secondary-color-hover);
+	color:var(--main-color-hover);
+}
+header a.active{
+	background-color:var(--secondary-color);
+	color:var(--main-color);
+}
+
+
+
+/** admin content **/
+.wrapper {
+  width: 100%; 
+}
+
+#sidebar {
+  width: 20%;
+  background: var(--secondary-color);
+  color: #fff;
+}
+#sidebar.active {
+    width: 80px;
+    text-align: center; 
+}
+
+#sidebar ul li a {
+  padding: 10px 30px;
+  display: block;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+#sidebar.active ul.components li {
+    font-size: 14px; 
+}
+
+#sidebar.active ul.components li a {
+    padding: 10px 0; 
+}
+
+#sidebar.active ul.components li a i {
+  display: block;
+  font-size: 24px; 
+}
+
+#content {
+  width: 100%;
+  padding: 0;
+  min-height: 100vh; 
+}
+.table button{
+	outline: none;
+	background-color:var(--main-color);
+	color: rgb(0, 0, 0);
+	padding: 0 4px;
+    border: none;
+	text-align: center;
+}
+
+#content h2{
+	text-align: center;
+	padding: 2rem;
+	padding-top: 1rem;
+}

@@ -1,0 +1,565 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+   
+}
+/* start header bar */
+.top-bar{
+    position: relative;
+    background-color: blue;
+}
+.top-bar .logo{
+    display: inline-block;
+   
+}
+.top-bar .logo a{
+    text-decoration: none;
+}.top-bar .logo a h4{
+    color: white;
+}
+.top-bar .float-right{
+    text-align: center;
+    margin-top: 4px;
+}
+.top-bar .float-right a{
+    color: white;
+    padding-left: 5px;
+    text-decoration: none;
+}.top-bar .float-right a:hover{
+    color: rgb(235, 231, 231);
+
+}
+/* nav */
+ul.navbar-nav{
+    margin-left: 28rem;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    display: inline-block
+}
+nav ul li a{
+   text-decoration: none !important;
+   color: #000;
+   padding-left: 10px;
+   font-size: 18px;
+}
+nav ul li a:hover{
+    color: blue !important;
+}
+nav ul li a.active{
+    color: blue !important;
+}
+.navbar{
+    background-color: #f7f7f7!important;
+}
+/* end  */
+
+
+/* cover */
+.carousel-item img{
+    height:630px;
+    width: 100%;
+    background-attachment: fixed;
+}
+/* start abou us */
+.about-us h1{
+    text-align: center;
+    color: #4242ff;
+    margin-bottom: 25px;
+}
+.about-us {
+
+    color: darkgrey;
+    font-size: 19px;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    padding-bottom: 70px;
+}
+.about-us .row{
+    margin-top: 40px;
+
+}
+.about-us .row img{
+    width: 100%;
+}
+.about-us .info {
+
+    background-color: #535353;
+    padding: 1rem;
+    
+}
+.about-us .info:hover {
+       background-color: #129fff;
+}
+.about-us .info p {
+        color: #fff;
+        padding: 1rem;
+        line-height: 1.2;
+        font-size: 16px; 
+       
+    }
+.about-us .info h2{
+    padding: 4px;
+    /* font-size: 37px; */
+    padding-bottom: 4px;
+    color: #fff;
+}
+/* contact */
+.contact{
+	background-color: #3c3e3e;
+	overflow: hidden;
+	padding-bottom: 60px;
+	padding-top: 60px
+	
+}
+.contact:hover{
+    background-color: #0098dd;
+}
+.contact .info
+{
+          float: left;
+	width: 50%;
+	margin-right: 5%;
+}
+.contact h2{
+	color: #fff;
+	margin-left: 35px;
+	
+}
+.contact p{
+	color: #afafaf;
+    margin-left: 35px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.contact p strong{
+	color: #D1D6DA;
+	margin-right: 30px;
+}.contact .form{
+	float: left;
+	width: 45%;
+}
+.contact .form input[type="text"]{
+	background-color: #c4c7c7;
+	color: #FFF;
+	padding: 6px;
+	width: 90%;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 8px;
+	
+}
+.contact .form textarea{
+	background-color: #c4c7c7;
+	color: #FFF;
+	padding: 6px;
+	width: 90%;
+	height: 200px;
+	margin-bottom: 15px;
+	
+}
+.contact .form button{
+	padding:2px #fff;
+	color: #fff;
+	background-color: #000
+}
+.contact .form label{
+	display: block;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.contact .form input[type="submit"]{
+	background-color: #191E22;
+	color: #fff;
+	padding: 7px 12px ;
+	border: 0;
+	margin-top: 5px;
+}
+/* footer */
+
+section.footer{
+	padding-bottom: 8%;
+	padding-top: 5%;
+    background-color: #707070;
+    bottom: 0;
+    position: relative;
+    padding-bottom: 80px;
+}
+section.footer .left{
+	float: left;
+	
+	opacity: 0.9;
+	
+}
+section.footer .left span{
+	font-size: 15px;
+	color: #cecbcb;
+	display: inline-block;
+	padding-top: 0px;
+}
+section.footer .left img{
+	width: 20px;
+	height: 20px;
+	color: #000;
+	margin-bottom: -5px;
+	
+}
+section.footer .right {
+	float: right;
+}
+section.footer .right span{
+	display: block;
+	color: #aaa;
+	font-size: 15px;
+}
+section.footer .intro{
+	position: relative;
+}
+section.footer .intro ul{
+	position: absolute;
+	left: 34%;
+	bottom: -70px;
+	display: table;
+	
+	text-align: center;
+	overflow: hidden;
+}
+section.footer .intro ul li{
+	list-style: none;
+	float: left;
+	background: none;
+	border: 2px solid #fff;
+	padding:22px ;
+	font-size: 25px;
+	color: #fff;
+}
+/* sinn in */
+/* Start Sign-In-Up */
+
+/* تسجيل الدخول */
+.sign-in-up .tab {
+    font-size: 18px;
+    font-weight: 800;
+    color: #333;
+    cursor: pointer;
+    margin-left: 15px;
+}
+@media (max-width: 420px) {
+    .sign-in-up .tab {
+        font-size: 15px;
+    }
+}
+
+.sign-in-up .active-tab {
+    position: relative;
+}
+
+.sign-in-up .active-tab:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 6px;
+    background-color: #586bda;
+}
+
+.sign-in-up select,
+.sign-in-up option {
+    background-color: white;
+}
+
+.sign-in-up .relative-form {
+    position: relative !important;
+}
+
+.sign-in-up form {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.sign-in-up label {
+    color: rgb(180, 179, 179);
+    font-weight: 600;
+    word-spacing: 3;
+}
+
+.sign-in-up .box-input {
+    height: 65px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.sign-in-up .box-input:hover {
+    box-shadow: 0 0 5px 1px #586bdab0;
+}
+
+
+.sign-in-up .box-input .line {
+    position: absolute;
+    right: 70px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #ccc, transparent);
+    z-index: 5;
+}
+
+.sign-in-up .box-input input {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 80px 0 5px;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+}
+
+.sign-in-up .box-input a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 18px 80px 0 5px;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+}
+
+.sign-in-up .box-input-2 {
+    margin-bottom: 7px;
+}
+
+.sign-in-up .box-input-2 input {
+    padding-left: 40px;
+}
+
+.sign-in-up .password {
+    direction: ltr;
+    width: 100%;
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+
+.sign-in-up .password:hover {
+    color: #586bda;
+}
+
+.sign-in-up .box-input i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000;
+    font-size: 23px;
+}
+
+.sign-in-up .box-input .active-i {
+    z-index: 33 !important;
+}
+
+.sign-in-up .submit {
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 8px;
+    border: none;
+    background-color: #586bda;
+    color: white;
+    font-size: 21px;
+    word-spacing: 3;
+    box-shadow: 0px 7px 7px 0px #586cda45;
+    transition: all .3s ease-in-out;
+}
+
+.sign-in-up .submit:hover {
+    box-shadow: none;
+    transform: translate(0 , 3px);
+}
+
+.sign-in-up .text {
+    color: #333;
+    font-size: 21px;
+    font-weight: 800;
+}
+@media (max-width: 576px) {
+    .sign-in-up .text {
+        font-size: 18px;
+    }
+}
+
+.sign-in-up .text span {
+    color: #46acff;
+}
+
+.sign-in-up .alert {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 1.2;
+    color: #586bda;
+    border-radius: 8px;
+    background-color: #007bff15;
+    padding: 15px 0;
+    border: 2px solid #586bda;
+}
+
+.sign-in-up .alert span {
+    font-size: 33px;
+    color: red;
+    font-weight: bold;
+    margin-left: 8px;
+}
+@media (max-width: 768px) {
+    .sign-in-up .alert {
+        font-size: 17px;
+    }
+    
+    .sign-in-up .alert span {
+        font-size: 22px;
+    }
+}
+@media (max-width: 500px) {
+    .sign-in-up .alert {
+        font-size: 16px;
+    }
+    
+    .sign-in-up .alert span {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .sign-in-up .alert {
+        font-size: 13px;
+    }
+    
+    .sign-in-up .alert span {
+        font-size: 16px;
+    }
+}
+
+.sign-in-up select {
+    border-radius: 8px;
+    width: 98% !important;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sign-in-up .place-form select,
+.sign-in-up .place-form input {
+    padding-right: 18px !important;
+}
+
+.sign-in-up .title {
+    color: #333;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.sign-in-up .title img {
+    margin-left: 12px;
+    width: 60px;
+    height: 60px;
+}
+
+.sign-in-up h3 {
+    font-weight: 600;
+    word-spacing: 5;
+}
+
+.sign-in-up p {
+    color: rgb(153, 152, 152);
+    font-weight: bold;
+    word-spacing: 3;
+}
+@media (max-width: 500px) {
+    .sign-in-up h3 {
+        font-size: 23px;
+    }
+    .sign-in-up p {
+        font-size: 14px;
+    }
+}
+
+.sign-in-up .box-number {
+    height: 65px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+@media (max-width: 576px) {
+    .sign-in-up .box-number {
+        height: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .sign-in-up .box-number {
+        height: 35px;
+    }
+}
+
+.sign-in-up .box-number:hover {
+    box-shadow: 0 0 5px 1px #586bdab0;
+}
+
+.sign-in-up .box-number input {
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+@media (max-width: 400px) {
+    .sign-in-up .box-number input {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .sign-in-up .row .col {
+        padding-left: 0 !important;
+    }
+}
+
+.sign-in-up .text-send {
+    font-size: 16px;
+}
+
+.sign-in-up .text-send a {
+    margin-right: 10px;
+}
+
+/* End Sign-In-Up */
